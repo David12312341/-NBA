@@ -83,7 +83,7 @@ function createTraces(injuries, injuryLookup, settings) {
     traceUnlisted.text = [
         '<span style="font-weight: bold; font-size: 1.5em;">'
         + '<span style="color: rgb(150, 150, 0);">&#9888;</span> '
-        + 'מיקום ללא שיוך'
+        + 'לא צוין צד'
       + '</span><br><br>'
       + injuriesUnlisted.map(x => '<span style="font-size: 16px;">' + x + '</span>').join('<br>')
     ]
